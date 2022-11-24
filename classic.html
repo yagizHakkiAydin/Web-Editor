@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Classic Question</title>
+    <link rel="stylesheet" href="./classic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="./classic.js"></script>
+</head>
+<body >
+    
+    <div class="classicq">
+        
+        <div class="question">
+            <label id="question-label" for="question">Question</label>
+            <textarea name="question-area" id="qarea" cols="38" rows="5"></textarea>
+        </div>
+        <div class="category">
+            <label for="category" id="label-category">Category</label>
+            <select name="question-category" id="question-category">
+               
+                <option value="geography">Geography</option>
+                <option value="general-culture">General Culture</option>
+
+            </select>
+        </div>
+        <div class="answer">
+            <label id="answer-label" for="answer">Answer </label>
+            <input id="answer-inp" type="text">
+        </div>
+        <div class="icons">
+        <button class="btn" id="btn1" >
+        <i class="fa-sharp fa-solid fa-circle-check fa-2xl" id="icon1" onclick="alertFunction()"></i>
+        </button>
+        <button class="btn" id="btn2">
+        <i class="fa-solid fa-circle-xmark fa-2xl" id="icon2" onclick="deleteFunction()"></i>
+        </button>
+        </div>
+        
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
